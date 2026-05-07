@@ -11,6 +11,7 @@ app = Flask(__name__)
 
 UPLOAD_FOLDER = 'uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 THEMES = {
     "gatsby": "1920s gatsby party, woman img, elegant golden dress, champagne glass, han river fireworks background, luxury, photorealistic",
