@@ -1,12 +1,10 @@
 # AI Photo Studio
 
-> **질문** 사진 한 장으로 AI가 다양한 테마의 인물 이미지를 생성할 수 있을까?
-
-> **답** Replicate의 PhotoMaker API를 연동해 12가지 테마로 얼굴을 합성하는 Flask 웹 서비스를 구현하고 Render에 배포했다.
-
-얼굴 사진을 업로드하면 AI가 선택한 테마에 맞게 이미지를 생성하는 웹 서비스
+Replicate PhotoMaker API를 연동해 얼굴 사진 한 장으로 12가지 테마의 AI 이미지를 생성하는 Flask 웹 서비스. Render에 배포해 실서비스로 운영 중.
 
 🔗 **배포 링크**: https://photo-ai-mkzy.onrender.com
+
+[![preview](./images/photoai_screenshot.png)](https://photo-ai-mkzy.onrender.com)
 
 ---
 
